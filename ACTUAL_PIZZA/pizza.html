@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biazon's Pizzaria: ORDER NOW!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+<div class="Background">
+    <div class="pizza-container">
+
+        <h1>🍕 Biazon's Pizzaria: ORDER NOW! 🍕</h1>
+        <p class="subtitle"> Choose Your Pizza Combination!</p>
+
+        <form action="pizza.php" method="POST">
+
+            <!-- PIZZA SIZE -->
+            <div class="section">
+                <h2>Choose Your Pizza Size</h2>
+
+                <div class="options">
+
+                    <label class="option">
+                        <input type="radio" name="size" value="Small" required>
+                        <span>Small</span>
+                        <p>₱150</p>
+                    </label>
+
+                    <label class="option">
+                        <input type="radio" name="size" value="Medium">
+                        <span>Medium</span>
+                        <p>₱200</p>
+                    </label>
+
+                    <label class="option">
+                        <input type="radio" name="size" value="Large">
+                        <span>Large</span>
+                        <p>₱250</p>
+                    </label>
+
+                </div>
+            </div>
+
+
+            <!-- CRUST -->
+            <div class="section">
+
+                <h2>Choose Your Crust</h2>
+
+                <label>
+                    <input type="radio" name="crust" value="Thin Crust" required>
+                    Thin Crust (+₱20)
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="radio" name="crust" value="Regular Crust">
+                    Regular Crust (+₱0)
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="radio" name="crust" value="Stuffed Crust">
+                    Stuffed Crust (+₱40)
+                </label>
+
+            </div>
+
+
+            <!-- TOPPINGS -->
+            <div class="section">
+
+                <h2>Choose Your Toppings</h2>
+
+                <div class="toppings">
+
+                    <label class="topping">
+                        <input type="checkbox" name="toppings[]" value="Pepperoni">
+                        <img src="pizzaImages/PepperoniPizza.jpg">
+                        <span>Pepperoni</span>
+                        <p>+₱30</p>
+                    </label>
+
+                    <label class="topping">
+                        <input type="checkbox" name="toppings[]" value="Mushroom">
+                        <img src="pizzaImages/MushroomPizza.jpg">
+                        <span>Mushroom</span>
+                        <p>+₱25</p>
+                    </label>
+
+                    <label class="topping">
+                        <input type="checkbox" name="toppings[]" value="Ham">
+                        <img src="pizzaImages/HamPizza.jpg">
+                        <span>Ham</span>
+                        <p>+₱30</p>
+                    </label>
+
+                    <label class="topping">
+                        <input type="checkbox" name="toppings[]" value="Bacon">
+                        <img src="pizzaImages/BaconPizza.jpg">
+                        <span>Bacon</span>
+                        <p>+₱35</p>
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- CUSTOMER INFORMATION -->
+
+            <div class="section">
+
+                <h2>Customer Information</h2>
+
+                <input type="text" name="customer_name"
+                       placeholder="Your Name" required>
+
+                <input type="text" name="address"
+                       placeholder="Delivery Address" required>
+
+            </div>
+
+
+            <button type="submit">Place Order</button>
+
+        </form>
+
+    </div>
+</div>
+</body>
+</html>

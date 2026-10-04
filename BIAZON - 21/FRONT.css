@@ -1,0 +1,48 @@
+body {
+    background-image: url("IMAGES/BACKGROUND/ABYDOS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card{
+    background-color:#E0FFFF;
+    border:5px solid #000100;
+    width:250px;
+    padding:20px;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+
+.image-container{
+    display:flex;
+    justify-content:center;
+}
+
+.image-container img{
+    height:500px;
+}
+
+.terror{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    left:-20px;
+}
+
+.back-button {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

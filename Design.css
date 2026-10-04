@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    width: 300px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 98%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #333;
+    color: white;
+
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #555;
+}
+
+#message {
+    color: red;
+    margin-top: 15px;
+}
+
+.abydos {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url("BIAZON - 21/IMAGES/BACKGROUND/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

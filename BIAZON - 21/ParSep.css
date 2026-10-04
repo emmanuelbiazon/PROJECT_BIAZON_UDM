@@ -1,0 +1,29 @@
+body {
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+body.abydos {
+    background-image: url("IMAGES/BACKGROUND/Background for personal.jpg");
+}
+
+body.Yume {
+    background-image: url("IMAGES/BACKGROUND/HoshiYume.jpg");
+}
+
+body.Terror {
+    background-image: url("IMAGES/BACKGROUND/SADNESS.webp");
+}
+
+.text-content {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    Background-color: rgba(20, 20, 20, 0.75);
+	color: white;
+    border-radius: 10px;
+}
