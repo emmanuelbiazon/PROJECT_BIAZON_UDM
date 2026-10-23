@@ -14,7 +14,7 @@ The source code of this portfolio website, including its HTML, CSS, JavaScript, 
 
 See the LICENSE file for the full license text. 
 
-<h2>Excluded Materials<h2> The MIT License applies to the website's source code only. Unless explicitly stated otherwise, 
+<h2>Excluded Materials</h2> The MIT License applies to the website's source code only. Unless explicitly stated otherwise, 
 it does not grant permission to use my personal information, personal photographs, likeness, private data, or other personal materials presented in this portfolio. Third-party assets, including fonts, icons, images, libraries, and other materials, remain subject to their respective licenses and the rights of their original owners. 
   
 Please respect the privacy and intellectual property rights of all individuals and content owners.
