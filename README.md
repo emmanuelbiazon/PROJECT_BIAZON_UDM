@@ -5,6 +5,8 @@ This file is intended for the sole purpose of passing my 1st sem finals, and wil
 NOTE: This is simply something I decided to do so I have multiple backups; cloud, local, laboratory, and here in github to ensure that if something
 amiss occurs, I can back up my files. Not the most efficient, but it works.
 
+PS: Website is static, as it is only a temporary profile as my second year first ever project in web development.
+
 ## Portfolio Login: Username (Biazon) Password (BSIT21).
 
 ## License
